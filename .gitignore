@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+site_dist/
+build/
+
+# Environment and local files
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor and OS
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+# Non-web workspace files
+3D_Assets/
+Client_Communication/
+Client_Delivery_Package/
+Client_Showcase/
+Dist/
+Documentation/
+IBK_Player_Anatomy_Uncensored/
+IBK_SeamlessPlayerBody/
+IBK_ZombieVarietyPack/
+IBK_Zombie_Overhaul/
+scripts/
+Unity_Project_Setup/
+*.alf
+*.bat
+*.log
+
+push.cjs
+git_prepare.cjs
